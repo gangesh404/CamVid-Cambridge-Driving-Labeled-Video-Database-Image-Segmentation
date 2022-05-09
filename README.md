@@ -10,7 +10,7 @@ We have an image and a its mask with the segmentation of classes as shown below:
 The dataset is split up as follows:
 
 601 training pairs
-10 test pairs
+100 test pairs
 
 I have used pretrained segmentation models with U-Net as the artitechture and trained two models with one with RestNet34 and other with VGG16 as the backbone.
 
