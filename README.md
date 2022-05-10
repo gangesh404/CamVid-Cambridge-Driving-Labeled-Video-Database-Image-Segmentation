@@ -54,7 +54,7 @@ Below are some Sample Test image segmentation genetrated using both the models.
 
 ### restnet34:
 
-1. ![download](https://user-images.githubusercontent.com/66409831/167542939-66c7c142-fc33-478d-8531-339292a573e6.png)
+![download](https://user-images.githubusercontent.com/66409831/167542939-66c7c142-fc33-478d-8531-339292a573e6.png)
 
 ![download2](https://user-images.githubusercontent.com/66409831/167542975-19fdd8e9-099b-4014-a789-13a46d6911a0.png)
 
