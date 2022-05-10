@@ -25,8 +25,17 @@ But when we compare the predicted test images for both the models the RestNet34 
 
 Below are some Sample Test image segmentation genetrated using both the models.
 
+###restnet34:
 
+![download](https://user-images.githubusercontent.com/66409831/167542939-66c7c142-fc33-478d-8531-339292a573e6.png)
 
+![download2](https://user-images.githubusercontent.com/66409831/167542975-19fdd8e9-099b-4014-a789-13a46d6911a0.png)
+
+![download3](https://user-images.githubusercontent.com/66409831/167542996-e75e92f1-53f2-4c4a-90a4-549023b94244.png)
+
+![download4](https://user-images.githubusercontent.com/66409831/167543027-28c93969-a552-423a-9428-ed8162f1a454.png)
+
+![download5](https://user-images.githubusercontent.com/66409831/167543064-76194a5a-9350-45a1-9369-e52518ac4468.png)
 
 
 
