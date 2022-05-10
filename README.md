@@ -15,9 +15,24 @@ The dataset is split up as follows:
 601 training pairs
 100 test pairs
 
+## Model:
+
 I have used pretrained segmentation models with U-Net as the artitechture and trained two models with one with RestNet34 and other with VGG16 as the backbone.
 
-Performance Metric used is IOU Score.
+U-Net is an architecture for semantic segmentation. It consists of a contracting path and an expansive path as shown below:
+
+![unet](https://user-images.githubusercontent.com/66409831/167596022-f906397b-4520-4f7a-a765-415216e8ece6.png)
+
+
+Performance Metric used is IOU score:
+
+IOU score is the measures the amount of overlap between the predicted and ground truth bounding box.
+
+![iou](https://user-images.githubusercontent.com/66409831/167600548-c40d0eba-336e-47e8-beb2-e035e56f883f.JPG)
+
+
+IOU score ranges between 0 and 1, where score 1 is the best case and score 0 the worst case.
+
 
 ## Loss function used is Dice loss:
 
@@ -63,5 +78,5 @@ Below are some Sample Test image segmentation genetrated using both the models.
 
 
 
-For the complete code please check out the ipynb(https://github.com/gangesh404/CamVid-Cambridge-Driving-Labeled-Video-Database-Image-Segmentation/blob/main/CityScapes_Image_Segmentation.ipynb).
+For the complete code please check out the [ipynb](https://github.com/gangesh404/CamVid-Cambridge-Driving-Labeled-Video-Database-Image-Segmentation/blob/main/CityScapes_Image_Segmentation.ipynb).
 
