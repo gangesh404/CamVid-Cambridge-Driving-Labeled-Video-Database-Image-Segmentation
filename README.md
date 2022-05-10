@@ -24,7 +24,7 @@ U-Net is an architecture for semantic segmentation. It consists of a contracting
 ![unet](https://user-images.githubusercontent.com/66409831/167596022-f906397b-4520-4f7a-a765-415216e8ece6.png)
 
 
-Performance Metric used is IOU score:
+## Performance Metric used is IOU score:
 
 IOU score is the measures the amount of overlap between the predicted and ground truth bounding box.
 
@@ -54,7 +54,7 @@ Below are some Sample Test image segmentation genetrated using both the models.
 
 ### restnet34:
 
-![download](https://user-images.githubusercontent.com/66409831/167542939-66c7c142-fc33-478d-8531-339292a573e6.png)
+1. ![download](https://user-images.githubusercontent.com/66409831/167542939-66c7c142-fc33-478d-8531-339292a573e6.png)
 
 ![download2](https://user-images.githubusercontent.com/66409831/167542975-19fdd8e9-099b-4014-a789-13a46d6911a0.png)
 
