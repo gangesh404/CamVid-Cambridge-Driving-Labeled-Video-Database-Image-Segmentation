@@ -17,13 +17,25 @@ The dataset is split up as follows:
 
 I have used pretrained segmentation models with U-Net as the artitechture and trained two models with one with RestNet34 and other with VGG16 as the backbone.
 
-Performance Metric used is IOU Score and the loss function used is Dice loss.
+Performance Metric used is IOU Score.
+
+## Loss function used is Dice loss:
+
+Range of Loss Function is 0 to 1
+
+Dice Loss is one minus dice coefficient which is also known as Fscore. Where Fscore The F-score (Dice coefficient) can be interpreted as a weighted average of the precision and recall, where an F-score reaches its best value at 1 and worst score at 0.
+
+Dice coefficient measures the overlap of two sets of area and at every iterations moves towards decreasing the dice loss to zero thus increasing the dice coefficient to one, thus creating a perfect segmentation of the image.
+
+## Final Scores:
 
 With the Resnet34 i have got a IOU score of 0.3979 and with the VGG16 model the IOU score is 0.4637.
 
 But when we compare the predicted test images for both the models the RestNet34 model image segmentation looks better than the VGG16 model.
 
 Below are some Sample Test image segmentation genetrated using both the models.
+
+## Test Images:
 
 ### restnet34:
 
@@ -51,5 +63,5 @@ Below are some Sample Test image segmentation genetrated using both the models.
 
 
 
-For the complete code please check out the ipynb.
+For the complete code please check out the ipynb(https://github.com/gangesh404/CamVid-Cambridge-Driving-Labeled-Video-Database-Image-Segmentation/blob/main/CityScapes_Image_Segmentation.ipynb).
 
