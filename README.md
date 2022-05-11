@@ -1,6 +1,19 @@
 # CamVid-Cambridge-Driving-Labeled-Video-Database-Image-Segmentation
 ## - by Gangesh Vaniyamkandi
 
+---
+
+### Requirements
+- NumPy
+- Pandas
+- OpenCV
+- TensorFlow
+- Keras
+- Mathplotlib
+- imgaug
+- segmentation_models
+---
+
 ### Introduction:
 Perform Image segmentation on Cambridge-Driving Dataset
 
