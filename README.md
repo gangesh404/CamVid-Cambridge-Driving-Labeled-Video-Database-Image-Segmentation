@@ -30,7 +30,7 @@ The dataset is split up as follows:
 
 ## Model:
 
-I have used pretrained segmentation models with U-Net as the artitechture and trained two models with one with RestNet34 and other with VGG16 as the backbone.
+I have used pretrained segmentation models with U-Net as the artitechture and trained two models with one with ResNet34 and other with VGG16 as the backbone.
 
 U-Net is an architecture for semantic segmentation. It consists of a contracting path and an expansive path as shown below:
 
@@ -59,13 +59,13 @@ Dice coefficient measures the overlap of two sets of area and at every iteration
 
 With the Resnet34 i have got a IOU score of 0.3979 and with the VGG16 model the IOU score is 0.4637.
 
-But when we compare the predicted test images for both the models the RestNet34 model image segmentation looks better than the VGG16 model.
+But when we compare the predicted test images for both the models the ResNet34 model image segmentation looks better than the VGG16 model.
 
 Below are some Sample Test image segmentation genetrated using both the models.
 
 ## Test Images:
 
-### restnet34:
+### resnet34:
 
 ![download](https://user-images.githubusercontent.com/66409831/167542939-66c7c142-fc33-478d-8531-339292a573e6.png)
 
